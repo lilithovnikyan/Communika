@@ -1,0 +1,31 @@
+@font-face {
+    src: url("../fonts/canela-bold.otf");
+    font-family: "Canela Bold";
+}
+@font-face {
+    src: url("../fonts/Canela-Medium.otf");
+    font-family: "Canela Medium";
+}
+@font-face {
+    src: url("../fonts/ProximaNova-Regular.ttf");
+    font-family: "ProximaNova-Regular";
+}
+@font-face {
+    src: url("../fonts/ProximaNova-Semibold.ttf");
+    font-family: "ProximaNova-Semibold";
+}
+@font-face {
+    src: url("../fonts/ProximaNova-Light.ttf");
+    font-family: "ProximaNova-Light";
+}
+@font-face {
+    src: url("../fonts/ProximaNova-Bold.ttf");
+    font-family: "ProximaNova-Bold";
+}
+@font-face {
+    src: url("../fonts/ProximaNovaT-Thin.ttf");
+    font-family: "ProximaNovaT-Thin";
+}
+
+
+

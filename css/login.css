@@ -1,0 +1,829 @@
+html, body, p, h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+input, button {
+    outline: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+button:hover,  button:focus {
+    outline: none;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+.login-communika-logo {
+    margin-left: 150px;
+    margin-top: 23px;
+}
+
+.login-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: -1px -1px 30px -8px rgba(0,0,0,0.30);
+    height: 100vh;
+    margin: 0 auto;
+}
+.login-left-side {
+    width: 40%;
+    padding: 42px;
+    height: 100vh;
+    background: #8DC63F;
+    background: url("../img/login-baner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.login-right-side {
+    width: 60%;
+    height: 100vh;
+}
+.login-left-side h1 {
+    margin: 186px 0px 90px 0px;
+    font-size: 45px;
+    line-height: 60px;
+    font-family: 'Segoe UI Bold';
+    color: white;
+    text-align: center;
+}
+.login-left-side h6 {
+    font-size: 20px;
+    line-height: 27px;
+    font-family: 'Segoe UI Bold';
+    color: white;
+    text-align: center;
+}
+.login-left-side-signin {
+    margin-top: 30px;
+    width: 230px;
+    border: 1px solid #ffc343;
+    background: #ffc343;
+    font-family: "Canela Bold";
+    font-size: 18px;
+    color: black;
+    display: flex;
+    height: 62px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 61px;
+}
+.login-left-side-signin:hover {
+    cursor: pointer;
+    border: 1px solid #ffc343;
+    background: white;
+    transition: 0.3s ease-in-out;
+}
+.no-account {
+  margin-top: 20px;
+}
+.no-account span {
+    font-size: 18px;
+    color: #777777;
+    font-family: "ProximaNova-Regular";
+}
+.no-account a {
+    font-size: 18px;
+    color: #777777;
+    font-family: "ProximaNova-Regular";
+    background: #ffc343;
+}
+
+.login-right-side h4 {
+     font-size: 36px;
+     color: #001932;
+     font-family: "Canela Bold";
+     margin-bottom: 50px;
+ }
+.login-right-side h6 {
+    font-size: 18px;
+    color: #777777;
+    font-family: "ProximaNova-Regular";
+    margin-bottom: 30px;
+}
+.login-right-side-content form {
+    max-width: 500px;
+}
+.login-communika-logo img {
+    width: 85px;
+}
+.login-right-side-content {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.login-right-side-email,
+.login-right-side-password {
+    margin-bottom: 20px;
+    width: 474px;
+    height: 63px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: 1px solid silver;
+    font-family: "ProximaNova-Regular";
+    font-size: 18px;
+    color: #001932;
+    padding-left: 16px;
+}
+.login-right-side-password {
+    position: relative;
+}
+.login-right-side-password-icon {
+    position: absolute;
+    right: 20px;
+    top: 17px;
+}
+.login-right-side-checkbox {
+    font-size: 15px;
+    color: #58595B;
+    line-height: 17px;
+    font-family: 'Segoe UI Regular';
+    padding-left: 6px;
+}
+.login-right-side-checkbox-input {
+    width: 18px;
+    height: 18px;
+}
+.login-right-side-block {
+    display: flex;
+    justify-content: space-between;
+}
+.login-right-side-checkbox span {
+    color: #8DC63F;
+    text-decoration: underline;
+}
+.text-1 {
+    font-size: 30px;
+    color: #001932;
+    font-family: ProximaNova-Bold;
+    margin-bottom: 20px;
+}
+.text-2 {
+    font-size: 36px;
+    color: #001932;
+    font-family: "Canela Bold";
+    margin-bottom: 50px;
+    margin-top: 60px;
+}
+.text-3 {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 63px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: 1px solid silver;
+    font-family: "ProximaNova-Regular";
+    font-size: 18px;
+    color: #001932;
+    padding-left: 16px;
+}
+.text-3::placeholder {
+    color: #001932;
+}
+.consultant-form {
+}
+.register-consultant-left {
+    max-width: 830px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text-4 {
+    margin-bottom: 20px;
+    width: 23%;
+    height: 63px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: 1px solid silver;
+    font-family: "ProximaNova-Regular";
+    font-size: 18px;
+    color: #001932;
+    padding-left: 16px;
+}
+.text-4::placeholder {
+    color: #001932;
+}
+.block-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-5 {
+    margin-bottom: 20px;
+    width: 49%;
+    height: 63px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: 1px solid silver;
+    font-family: "ProximaNova-Regular";
+    font-size: 18px;
+    color: #001932;
+    padding-left: 16px;
+}
+.text-5::placeholder {
+    color: #001932;
+}
+.text-7 {
+    font-family: "ProximaNova-Regular";
+    font-size: 14px;
+    color: #001932;
+}
+.text-6 {
+    margin-bottom: 20px;
+    width: 100%;
+    min-height: 63px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: 1px solid silver;
+    font-family: "ProximaNova-Regular";
+    font-size: 18px;
+    color: #001932;
+    padding-left: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 58px;
+}
+.text-8 .container {
+    display: block;
+    position: relative;
+    width: 117px;
+    padding-left: 30px;
+    margin-left: 40px;
+    margin-bottom: 0;
+    cursor: pointer;
+    font-family: "ProximaNova-Bold";
+    color: #001932;
+    font-style: italic;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.text-8 .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.text-8 .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+.text-8 .container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+.text-8 .container input:checked ~ .checkmark {
+    background-color: #ffc343;
+}
+.text-8 .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.text-8 .container input:checked ~ .checkmark:after {
+    display: block;
+}
+.text-8 .container .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+.text-9 {
+    min-height: 30px;
+    background-color: #f8f8f8;
+    margin: 10px 0;
+    width: 80%;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+.text-10 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-11 {
+    padding-left: 16px;
+    width: 20%;
+}
+.text-12 {
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: 1px solid silver;
+    margin-bottom: 20px;
+}
+.position-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.position-details-block {
+    width: 23%;
+    background-color: #ffffff;
+    border: 1px solid silver;
+    font-family: "ProximaNova-Regular";
+    font-size: 12px;
+    color: #001932;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 75px;
+    border-radius: 4px;
+}
+.text-13 {
+    height: 30px;
+    margin-top: 5px;
+    background-color: #f8f8f8;
+    width: 100%;
+}
+.text-14 {
+    margin-bottom: 20px;
+    width: 20%;
+    height: 63px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: 1px solid silver;
+    padding-left: 16px;
+}
+.text-14::placeholder {
+    color: #001932;
+    font-family: "ProximaNova-Regular";
+    font-size: 18px;
+}
+.text-15::placeholder {
+    color: #001932;
+    font-family: "ProximaNova-Regular";
+    font-size: 18px;
+}
+.text-15 {
+    margin-bottom: 20px;
+    width: 36%;
+    height: 63px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: 1px solid silver;
+    padding-left: 16px;
+    align-items: center;
+}
+.add-file {
+    width: 160px;
+    height: 50px;
+    border: 1px solid #ffc343;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #001932;
+    font-family: "ProximaNova-Regular";
+    font-size: 14px;
+    cursor: pointer;
+}
+.image-upload input {
+    display: none;
+}
+.text-16 {
+    font-size: 28px;
+    color: #001932;
+    font-family: ProximaNova-Bold;
+    margin-bottom: 20px;
+}
+.scroll-register {
+    padding-bottom: 40px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.scroll-register::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+.new-select {
+    width: 184px;
+    height: 39px;
+    border: 1px solid #ffc343;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #001932;
+    font-family: "ProximaNova-Regular";
+    font-size: 14px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+.scroll-register::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+.scroll-register::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-image: -webkit-gradient(linear,
+    left bottom,
+    left top,
+    color-stop(0.44, rgb(122,153,217)),
+    color-stop(0.72, rgb(73,125,189)),
+    color-stop(0.86, rgb(28,58,148)));
+}
+.modal-content-register {
+    height: 640px;
+    display: flex;
+}
+.modal-content {
+    justify-content: space-between;
+    flex-direction: row;
+    width: auto;
+}
+.modal-content-register-left {
+    background: url("../img/modal-png.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 260px;
+    height: 640px;
+}
+.modal-content-register-right {
+    width: 620px;
+    padding: 55px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 640px;
+}
+.logo-modal {
+    margin-bottom: 70px;
+}
+.text-17 {
+    color: #001932;
+    font-size: 40px;
+    font-family: "Canela Bold";
+    margin-bottom: 70px;
+    text-align: center;
+}
+.text-18 {
+    color: #001932;
+    font-size: 30px;
+    font-family: "ProximaNova-Semibold";
+    margin-bottom: 60px;
+    text-align: center;
+}
+.continue-btn {
+    margin-top: 30px;
+    width: 230px;
+    border: 1px solid #ffc343;
+    background: #ffc343;
+    font-family: "Canela Bold";
+    font-size: 18px;
+    color: black;
+    display: flex;
+    height: 62px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 61px;
+}
+.continue-btn:hover {
+    cursor: pointer;
+    border: 1px solid #ffc343;
+    background: white;
+    transition: 0.3s ease-in-out;
+}
+.register-btn {
+    margin-top: 30px;
+    width: 230px;
+    border: 1px solid #ffc343;
+    background: #ffc343;
+    font-family: "Canela Bold";
+    font-size: 18px;
+    color: black;
+    display: flex;
+    height: 62px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 61px;
+}
+.register-btn:hover {
+    cursor: pointer;
+    border: 1px solid #ffc343;
+    background: white;
+    transition: 0.3s ease-in-out
+}
+
+.checked-show-img-2,
+.checked-show-img-3 {
+    width: 24px;
+    height: 24px;
+    display: none;
+}
+
+
+
+
+
+
+@media (max-width: 1600px) {
+    .register-consultant-left {
+        max-width: 785px;
+    }
+    .position-details-block {
+        font-size: 11px;
+    }
+}
+@media (max-width: 1400px) {
+    .register-consultant-left {
+        max-width: 93%;
+    }
+    .text-6 {
+        flex-direction: column;
+        padding: 13px 0;
+    }
+    .text-7 {
+        margin-bottom: 10px;
+    }
+    .position-details {
+        flex-wrap: wrap;
+    }
+    .position-details-block {
+        font-size: 14px;
+        margin-bottom: 20px;
+        width: 49%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .login-right-side-email,
+    .login-right-side-password {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .login-right-side-password-icon {
+        right: 22px;
+    }
+    .login-left-side-signin {
+        margin-top: 34px;
+        width: 100%;
+    }
+    .login-right-side form {
+        width: 100%
+    }
+    .login-left-side h1 {
+        font-size: 42px;
+    }
+    .login-left-side {
+        width: 40%;
+        padding: 30px;
+    }
+    .login-right-side {
+        width: 60%
+    }
+    .text-1 {
+        font-size: 26px;
+    }
+    .text-16 {
+        font-size: 24px;
+    }
+    .text-3, .text-4, .text-5, .text-15, .text-14 {
+        height: 46px;
+        font-size: 13px;
+        padding-left: 9px;
+    }
+    .text-15::placeholder, .text-14::placeholder {
+        font-size: 13px;
+    }
+    .text-8 .container {
+        width: 49%;
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+    .text-8 {
+        flex-wrap: wrap;
+    }
+    .text-11 {
+        width: 100%;
+        text-align: center;
+    }
+    .text-10 {
+        flex-direction: column;
+    }
+    .modal-content-register-right,
+    .modal-content-register-left,
+    .modal-content-register {
+        height: 480px;
+    }
+    .text-17 {
+        font-size: 29px;
+        margin-bottom: 9px;
+    }
+    .text-18 {
+        font-size: 21px;
+        margin-bottom: 20px;
+    }
+    .logo-modal {
+        margin-bottom: 40px;
+    }
+    .continue-btn {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        width: 70%;
+        height: 45px;
+    }
+    .modal-content-register-right {
+        width: 480px;
+    }
+}
+@media (max-width: 992px) {
+    .modal-content-register-left {
+        display: none;
+    }
+    .register-btn {
+        margin: 20px auto;
+    }
+    .login-right-side h4 {
+        font-size: 28px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .login-left-side {
+        display: none;
+    }
+    .login-right-side {
+        width: 100%;
+    }
+    .no-account {
+        text-align: center;
+    }
+    .login {
+        text-align: center;
+    }
+    .login-communika-logo {
+        margin-left: 0;
+        text-align: center;
+    }
+}
+@media (max-width: 767px) {
+    .modal-content-register-right {
+        width: 100%;
+    }
+    .modal-dialog {
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    .login-left-side-cancel,
+    .login-left-side-reset {
+        margin-top: 20px;
+        width: 100%;
+        height: 48px;
+        line-height: 25px;
+        font-size: 13px;
+    }
+    .login-left-side {
+        padding: 20px;
+    }
+    .login-right-side-email,
+    .login-right-side-password {
+        height: 47px;
+        font-size: 15px;
+    }
+    .login-right-side-password-icon {
+        right: 16px;
+        top: 15px;
+        width: 20px;
+    }
+    .login-left-side-signin {
+        height: 48px;
+        line-height: 25px;
+        font-size: 13px;
+    }
+    .text-8 {
+        flex-direction: column;
+    }
+    .text-8 .container {
+        width: 100%;
+    }
+    .text-1 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    .text-15, .text-14, .text-4 {
+        width: 49%;
+    }
+    .block-1 {
+        flex-wrap: wrap;
+    }
+    .text-16 {
+        font-size: 18px;
+    }
+}
+@media (max-width: 680px) {
+    .register-btn {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        width: 100%;
+        height: 45px;
+    }
+    .position-details-block {
+        width: 100%;
+    }
+    .login-right-side form {
+        width: 80%;
+    }
+    .login-right-side h4 {
+        font-size: 28px;
+    }
+    .modal-content-register-right {
+        padding: 20px;
+    }
+    .text-17 {
+        font-size: 25px;
+        margin-bottom: 9px;
+    }
+    .modal-content-register-right,
+    .modal-content-register-left,
+    .modal-content-register {
+        height: 364px;
+    }
+    .text-18 {
+        font-size: 16px;
+        margin-bottom: -5px;
+    }
+}
+@media (max-width: 480px) {
+    .text-15, .text-14, .text-4, .text-5 {
+        width: 100%;
+    }
+    .login-right-side-email,
+    .login-right-side-password {
+        height: 33px;
+        margin-bottom: 8px;
+    }
+    .login-left-side-signin {
+        height: 36px;
+    }
+    .login-communika-logo img {
+        width: 85px;
+    }
+    .login-right-side h4 {
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .no-account {
+        margin-top: 27px;
+    }
+    .login-right-side h6 {
+        font-size: 16px;
+    }
+    .no-account span {
+        font-size: 14px;
+    }
+    .no-account a {
+        font-size: 14px;
+    }
+    .text-17 {
+        font-size: 19px;
+        margin-bottom: 9px;
+    }
+    .text-18 {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    .continue-btn {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: 11px;
+        width: 92%;
+        height: 36px;
+    }
+    .modal-content-register-right,
+    .modal-content-register-left,
+    .modal-content-register {
+        height: 318px;
+    }
+    .logo-modal {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .logo-modal img {
+        width: 60%;
+    }
+}

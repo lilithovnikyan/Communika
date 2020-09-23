@@ -1,0 +1,170 @@
+.schedule-call {
+     max-width: 1290px;
+     margin: 10px auto;
+ }
+.feedback-title {
+    color: #001932;
+    font-size: 30px;
+    font-family: "Canela Bold";
+    margin-top: 30px;
+}
+.schedule-call-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.schedule-call-items-block {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.schedule-call-items-block img {
+    height: 295px;
+    border-radius: 5px;
+}
+.schedule-call-items-block-title {
+    font-size: 16px;
+    color: #001932;
+    margin-top: 10px;
+    line-height: 24px;
+    font-family: "ProximaNova-Bold";
+    height: 80px;
+}
+.schedule-call-items-block-info {
+    font-family: "ProximaNova-Regular";
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #001932;
+}
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.container input {
+    position: absolute;
+
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.container input:checked ~ .checkmark img {
+   display: block;
+}
+.checkmark img {
+    width: 40px;
+    height: 50px;
+    display: none;
+    position: absolute;
+    top: -15px;
+}
+@media (max-width: 1700px) {
+    .schedule-call-items-block {
+        width: 30%;
+    }
+}
+@media (max-width: 1400px) {
+    .schedule-call {
+        max-width: 88%;
+    }
+}
+@media (max-width: 1200px) {
+    .schedule-call-items {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .schedule-call-items-block {
+        width: 100%;
+    }
+    .schedule-call-items-block-title {
+        height: auto;
+    }
+    .schedule-call-items-block-title {
+        margin-top: 18px;
+        margin-bottom: 16px;
+    }
+    .schedule-call-items-block-info {
+        margin-bottom: 50px;
+    }
+    .schedule-call-mobile {
+       text-align: center;
+    }
+    .feedback-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn-next-step {
+        width: 100%;
+    }
+    .feedback-title {
+        font-size: 26px;
+    }
+}
+@media (max-width: 767px) {
+    .feedback-title {
+        font-size: 20px;
+    }
+    .feedback-form {
+        width: 100%;
+    }
+    .location-input input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .schedule-call-items-block img {
+        height: 190px;
+    }
+    .schedule-call-items-block-info {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .schedule-call-items-block-title {
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .checkmark {
+        height: 20px;
+        width: 20px;
+    }
+    .container {
+        padding-left: 0;
+    }
+    .checkmark img {
+        width: 22px;
+        height: 26px !important;
+        top: -9px;
+    }
+    .feedback-title {
+        font-size: 17px;
+    }
+    .feedback-form {
+        margin-top: 12px;
+    }
+}
+
